@@ -51,4 +51,4 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-/pattern-match/kmp-tester
+/pattern-match/kmp/kmp-tester
