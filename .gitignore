@@ -53,3 +53,4 @@ dkms.conf
 
 /pattern-match/kmp/kmp-tester
 /graph/region/region-tester
+/graph/intersect/intersect-tester
