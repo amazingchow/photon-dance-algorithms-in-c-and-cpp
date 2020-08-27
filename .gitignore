@@ -52,5 +52,6 @@ Mkfile.old
 dkms.conf
 
 /pattern-match/kmp/kmp-tester
+/pattern-match/kmp/prof/heapprof.*.heap
 /graph/region/region-tester
 /graph/intersect/intersect-tester
