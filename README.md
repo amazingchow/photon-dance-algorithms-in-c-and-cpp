@@ -4,3 +4,5 @@
 
 - [x] KMP
 - [ ] AC自动机
+- [x] Ray-Crossing
+- [ ] TimeWheel + DelayQueue
