@@ -51,7 +51,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+.vscode
 /pattern-match/kmp/kmp-tester
 /pattern-match/kmp/prof/heapprof.*.heap
 /graph/region/region-tester
 /graph/intersect/intersect-tester
+/union-find/union-find-tester
