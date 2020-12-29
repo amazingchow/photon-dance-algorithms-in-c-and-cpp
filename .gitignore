@@ -52,8 +52,10 @@ Mkfile.old
 dkms.conf
 
 .vscode
+/geometric/intersect/intersect-tester
+/geometric/region/region-tester
 /pattern-match/kmp/kmp-tester
+/pattern-match/kmp/CPUPROFILE
+/pattern-match/kmp/prof/cpuprof.out
 /pattern-match/kmp/prof/heapprof.*.heap
-/graph/region/region-tester
-/graph/intersect/intersect-tester
 /union-find/union-find-tester

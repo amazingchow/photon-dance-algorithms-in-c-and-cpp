@@ -3,14 +3,14 @@ build:
 
 # https://gperftools.github.io/gperftools/heapprofile.html
 run-heapprof:
-	LD_PRELOAD=/usr/local/lib/libtcmalloc.so HEAPPROFILE=~/Desktop/algo-repo/pattern-match/kmp/prof/heapprof ./kmp-tester
+	LD_PRELOAD=/usr/local/lib/libtcmalloc.so HEAPPROFILE=./prof/heapprof ./kmp-tester
 
 check-heapprof:
-	pprof ./kmp-tester ~/Desktop/algo-repo/pattern-match/kmp/prof/heapprof.0001.heap
+	pprof ./kmp-tester ./prof/heapprof.0001.heap
 
 # https://gperftools.github.io/gperftools/cpuprofile.html
 run-cpuprof:
-	LD_PRELOAD=/usr/local/lib/libtcmalloc.so CPUPROFILE=~/Desktop/algo-repo/pattern-match/kmp/prof/cpuprof.out ./kmp-tester
+	LD_PRELOAD=/usr/local/lib/libtcmalloc.so CPUPROFILE=./prof/cpuprof.out ./kmp-tester
 
 check-cpuprof:
-	pprof ./kmp-tester ~/Desktop/algo-repo/pattern-match/kmp/prof/cpuprof.out
+	pprof ./kmp-tester ./prof/cpuprof.out
