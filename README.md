@@ -8,3 +8,4 @@ photon-dance-algorithms-in-c-and-cpp
 - [ ] 模式匹配算法 - AC自动机
 - [x] 集合计算算法 - Union-Find
 - [ ] 高性能数据结构 - TimeWheel + DelayQueue
+- [x] 有限状态机
