@@ -9,3 +9,4 @@ photon-dance-algorithms-in-c-and-cpp
 - [x] 集合计算算法 - Union-Find
 - [ ] 高性能数据结构 - TimeWheel + DelayQueue
 - [x] 有限状态机
+- [x] LRU
