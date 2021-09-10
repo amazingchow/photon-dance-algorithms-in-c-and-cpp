@@ -54,6 +54,7 @@ dkms.conf
 .vscode
 /geometric/intersect/intersect-tester
 /geometric/region/region-tester
+/minimum-spanning-tree/mst-tester
 /pattern-match/kmp/kmp-tester
 /pattern-match/kmp/CPUPROFILE
 /pattern-match/kmp/prof/cpuprof.out

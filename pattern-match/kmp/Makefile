@@ -14,3 +14,6 @@ run-cpuprof:
 
 check-cpuprof:
 	pprof ./kmp-tester ./prof/cpuprof.out
+
+fmt:
+	clang-format -i *.c *.h
