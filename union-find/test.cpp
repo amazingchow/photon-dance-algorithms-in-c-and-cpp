@@ -1,9 +1,9 @@
 #include <iostream>
 #include "union_find.h"
 
-int main(int argc, char const *argv[])
-{
-    UnionFind *uf = new(UnionFind);
+int
+main(int argc, char const *argv[]) {
+    UnionFind *uf = new (UnionFind);
 
     uf->add(std::string("doc_0001"));
     uf->add(std::string("doc_0002"));
@@ -28,11 +28,11 @@ int main(int argc, char const *argv[])
     uf->unite(std::string("doc_0010"), std::string("doc_0002"), true);
     uf->unite(std::string("doc_0012"), std::string("doc_0002"), true);
 
-    std::cout << "doc_0009 and doc_0004 are not inside the same union, actually is " << \
-        (uf->find(std::string("doc_0009"), std::string("doc_0004")) ? "false" : "true") << std::endl;  
+    std::cout << "doc_0009 and doc_0004 are not inside the same union, actually is "
+              << (uf->find(std::string("doc_0009"), std::string("doc_0004")) ? "false" : "true") << std::endl;
 
-    std::cout << "doc_0005 and doc_0003 are inside the same union, actually is " << \
-        (uf->find(std::string("doc_0005"), std::string("doc_0003")) ? "true" : "false") << std::endl;  
+    std::cout << "doc_0005 and doc_0003 are inside the same union, actually is "
+              << (uf->find(std::string("doc_0005"), std::string("doc_0003")) ? "true" : "false") << std::endl;
 
-    delete uf; 
+    delete uf;
 }

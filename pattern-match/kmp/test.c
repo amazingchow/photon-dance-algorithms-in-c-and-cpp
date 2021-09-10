@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include "kmp.h"
 
-int main(int argc, char const *argv[])
-{
+int
+main(int argc, char const *argv[]) {
     ProfilerStart("CPUPROFILE");
 
-    const char* s = "oopabcabcabcabcefgmn";
-    const char* p = "abcabcabcefg";
+    const char *s = "oopabcabcabcabcefgmn";
+    const char *p = "abcabcabcefg";
 
     printf("matched index i = %d\n", kmp(s, p));
 
